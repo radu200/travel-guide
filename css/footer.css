@@ -1,0 +1,24 @@
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+
+.nav-items-footer{
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+   
+}
+.nav-items-footer:hover{
+    text-decoration: underline;
+
+}
+.nav-links-footer{
+    text-decoration: none;
+    color:#111111
+}
+
+

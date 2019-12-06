@@ -1,0 +1,33 @@
+
+.home-page-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.title{
+    text-align: center;
+}
+
+.city-content{
+    text-align: center;
+    line-height: 20px;
+}
+.reviewer-img{
+    max-width: 400px;
+    height: auto;;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.reviewer-content{
+    max-width: 400px;
+    margin:0 auto;
+    text-align: center;
+    padding:10px;
+    line-height: 20px;
+
+}
+

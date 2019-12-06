@@ -1,0 +1,30 @@
+
+.nav-bar{
+    width:100%;
+    color:#ffffff;
+    position: absolute;
+    padding-top: 20px;
+}
+
+.nav-container{
+    max-width: 1200px;
+    margin: 0 auto;    
+}
+
+.nav-items{
+    list-style-type: none;
+    padding:10px;
+    display: inline;
+    
+}
+
+.nav-items:hover{
+  text-decoration: underline;
+} 
+
+.nav-links{
+  color:#f4f4f4;
+  text-decoration: none;
+
+}
+
