@@ -1,9 +1,9 @@
 
 .home-page-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
+    height:700px;
+    object-fit: cover;
+
 }
 
 .title{
@@ -11,8 +11,12 @@
 }
 
 .city-content{
-    text-align: center;
-    line-height: 20px;
+
+    padding: 10px;
+    text-indent: 30px;
+    text-align: justify;
+    opacity: 0.7;
+ 
 }
 .reviewer-img{
     max-width: 400px;
@@ -24,10 +28,12 @@
 }
 .reviewer-content{
     max-width: 400px;
+    padding: 10px;
+    text-indent: 30px;
+    text-align: justify;
+    opacity: 0.7;
     margin:0 auto;
-    text-align: center;
-    padding:10px;
-    line-height: 20px;
+
 
 }
 

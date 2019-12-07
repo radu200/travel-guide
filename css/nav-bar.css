@@ -4,6 +4,8 @@
     color:#ffffff;
     position: absolute;
     padding-top: 20px;
+    text-align: center;
+  
 }
 
 .nav-container{
@@ -23,8 +25,9 @@
 } 
 
 .nav-links{
-  color:#f4f4f4;
+  color:blue;
   text-decoration: none;
+  font-size: 15px;
 
 }
 
