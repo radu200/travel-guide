@@ -1,19 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
     <title>Paris</title>
 </head>
+
 <body>
-    <nav>
+    <!-- primary nav -->
+    <nav class="nav-bar">
+        <ul class="nav-container">
+            <li class="nav-items"><a href="./HomePage.html" class="nav-links">Home</a></li>
+            <li class="nav-items"><a href="./Places.html" class="nav-links">PLaces</a></li>
+            <li class="nav-items"><a href="./Transport.html" class="nav-links">Transport</a></li>
+            <li class="nav-items"><a href="./TravelTips.html" class="nav-links">Travel Tips</a></li>
+        </ul>
+    </nav>
+    <!-- page title -->
+    <h2 class="title">Transport Paris</h2>
+   <!-- transport container for secondary nav and maps -->
+    <div class="transport-container">
+        <!-- secondary nav -->
+        <div class="secondary-nav">
+            <ul>
+                <li><a href="https://www.ratp.fr/en/plans-lignes/plan-metro" target="_blank">Find Metro</a></li>
+                <li><a href="https://www.ratp.fr/en/plans-lignes/plan-des-bus" target="_blank">Find Bus</a></li>
+                <li><a href="https://www.ratp.fr/en/visite-paris/english/visiting-paris-and-its-surrounding-areas"target="_blank">Find Taxi</a></li>
+            </ul>
+        </div>
+        <!-- map container -->
+        <div class="map-container">
+            <p>Currently, Paris Metro has 303 lines and is 136 miles (219 km) long. The Metro signage is usually a
+                letter M, or the words Métro or Métropolitain. The lines are numbered 1 to 14, and there are two
+                additional lines called 3bis and 7bis. To get around the centre of Paris the Metro connects perfectly
+                with the RER trains.</p>
+            <img src="../media/transport/paris-metro.jpg" alt="metro">
+            <p> RATP Bus Network covers the entire territory of the city of Paris and the vast majority of its near
+                suburbs. Operated by the RATP, this constitutes a dense bus network complementary to other public
+                transport networks, all organized and financed by Île-de-France Mobilités.
+                Other suburban bus lines are managed by private operators grouped in a consortium known as Optile
+                (Organisation professionnelle des transports an association of 80 private bus operators holding
+                exclusive rights on their lines. There are approximately 9500 buses serving public transportation across
+                the Paris region, all operators included</p>
+            <img src="../media/transport/paris-bus.jpg" alt="metro">
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
         <ul>
             <li><a href="./HomePage.html">Home</a></li>
             <li><a href="./Places.html">PLaces</a></li>
             <li><a href="./Transport.html">Transport</a></li>
             <li><a href="./TravelTips.html">Travel Tips</a></li>
         </ul>
-    </nav>
+    </footer>
 </body>
+
 </html>

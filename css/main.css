@@ -2,13 +2,15 @@
 @import './footer.css';
 @import './home-page.css';
 @import './places.css';
+@import './secondary-nav.css';
+@import './transport.css';
 
 body{
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif; 
+    background-color: #eee;
     margin:0;
     padding: 0;
-    background-color: #eee;
 }
 
 ul{
@@ -17,6 +19,6 @@ ul{
 }
 .container{
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0px auto 100px auto;
 }
 

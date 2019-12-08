@@ -1,0 +1,17 @@
+.secondary-nav {
+  width: 200px;
+  max-height: 200px;
+  background-color: #00a300;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+.secondary-nav > ul > li {
+   list-style-type: none;
+   padding: 20px 20px;
+}
+.secondary-nav > ul > li > a{
+   color:#ffffff;
+   text-decoration: none;
+}

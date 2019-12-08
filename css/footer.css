@@ -2,23 +2,25 @@
 .footer{
     width: 100%;
     text-align: center;
-    padding: 20px 0px;
+    padding: 20px;
+    background-color:#3e4852 ;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    
 }
 
 
-.nav-items-footer{
+.footer > ul > li{
     list-style-type: none;
     display: inline;
-    padding: 5px;
+    padding: 3px;
    
 }
-.nav-items-footer:hover{
-    text-decoration: underline;
 
-}
-.nav-links-footer{
+.footer > ul > li > a{
     text-decoration: none;
-    color:#111111
+    color:#ffffff
 }
 
 
