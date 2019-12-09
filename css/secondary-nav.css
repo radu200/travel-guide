@@ -9,9 +9,22 @@
 }
 .secondary-nav > ul > li {
    list-style-type: none;
-   padding: 20px 20px;
+   padding: 15px 15px;
+   
 }
 .secondary-nav > ul > li > a{
    color:#ffffff;
    text-decoration: none;
+}
+
+
+.transport-icons{
+    width:25px;
+    margin-right:10px;
+}
+
+@media (max-width:600px){
+    .secondary-nav{
+        width: 100%;
+    }
 }
