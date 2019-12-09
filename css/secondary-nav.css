@@ -17,6 +17,9 @@
    text-decoration: none;
 }
 
+.secondary-nav > ul > li > a:hover{
+    text-decoration: underline;
+ }
 
 .transport-icons{
     width:25px;
