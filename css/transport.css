@@ -1,26 +1,29 @@
-
-#transport-container{
-   max-width: 1200px;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+#transport-container {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.map-container{
+
+.map-container {
   max-width: 600px;
   padding: 0px 10px;
   margin-bottom: 100px;
 }
-.map-container > p {
-  text-indent:30px;
+
+.map-container>p {
+  text-indent: 30px;
   text-align: justify;
-  line-height: 20px;
-}
-.map-container > img{
-    max-width: 100%;
-}
-
-.title-transport{
-    text-align: center;
-    padding: 10px;
+  font-size: 2vh;
+  padding: 1rem;
+  line-height: 2rem;
 }
 
+.map-container>img {
+  max-width: 100%;
+}
+
+.title-transport {
+  text-align: center;
+  padding: 10px;
+}

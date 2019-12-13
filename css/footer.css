@@ -1,27 +1,29 @@
-
-.footer{
+.footer {
     background-color: #071c42;
     position: relative;
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    margin-top: auto;
+
 }
 
 
-.footer > ul > li{
+.footer>ul>li {
     list-style-type: none;
     display: inline;
     padding: 3px;
-   
+
 }
 
-.footer > ul > li > a{
+.footer>ul>li>a {
     text-decoration: none;
-    color:#ffffff
+    color: #ffffff;
+    font-size: 2vh;
+    padding: 1rem;
 }
 
-.footer > ul > li > a:hover{
+.footer>ul>li>a:hover {
     text-decoration: underline;
 }
-

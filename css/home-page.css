@@ -1,4 +1,4 @@
-#home-container{
+#home-container {
     max-width: 1200px;
     margin: 10px auto 20px auto;
 }
@@ -15,51 +15,19 @@
 }
 
 .city-content {
-    padding: 10px;
+    font-size: 2vh;
+    padding: 1rem;
+    line-height: 2rem;
     text-indent: 30px;
     text-align: justify;
     opacity: 0.7;
 
 }
 
-.review-card {
+.review-container {
     max-width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 10px;
-    background: #ffffff;
     display: flex;
-
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-.review-card >img {
-    width: 200px;
-    height: auto;
-    object-fit: cover;
-}
-
-.review-card>p {
-    padding: 10px;
-    text-indent: 30px;
-    text-align: justify;
-    opacity: 0.7;
-    margin: 0 auto;
-
-}
-
-@media(max-width:600px) {
-    .home-page-img {
-        height: 400px;
-    }
-
-    .review-card >img {
-        width: 100%;
-        object-position: 50% 50%;
-
-    }
-
-    .review-card {
-        flex-direction: column;
-        justify-content: center;
-    }
-}

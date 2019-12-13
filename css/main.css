@@ -1,5 +1,6 @@
 @import './nav-bar.css';
 @import './footer.css';
+@import './card.css';
 @import './home-page.css';
 @import './places.css';
 @import './secondary-nav.css';
@@ -15,7 +16,7 @@ html,body{
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif; 
     background-color: #eee;
-    height: 100%;
+   
 }
 
 ul{
